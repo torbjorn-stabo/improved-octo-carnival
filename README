@@ -1,0 +1,19 @@
+Requirements:
+
+npm
+docker
+
+Install the dependencies:
+
+$ npm install
+
+Start docker:
+
+$ docker-compose up --build
+
+Browse to localhost:80, or edit the PORT line in .env.
+
+There are two endpoints:
+
+http://127.0.0.1/api/v1/products/
+http://127.0.0.1/api/v1/products/:id
